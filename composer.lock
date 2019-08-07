@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9af0caa021ad2a38f598eb4b2cd90088",
+    "packages": [
+        {
+            "name": "pho-adapters/database-redis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pho-adapters/database-redis.git",
+                "reference": "90f6fa5fd5c49a67f8381d6a65def36e3f50a680"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pho-adapters/database-redis/zipball/90f6fa5fd5c49a67f8381d6a65def36e3f50a680",
+                "reference": "90f6fa5fd5c49a67f8381d6a65def36e3f50a680",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "predis/predis": "^1.1"
+            },
+            "provide": {
+                "phonetworks/service-storage-implementation": "1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pho\\Kernel\\Services\\Database\\Adapters\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emre Sokullu",
+                    "email": "emre@phonetworks.org",
+                    "homepage": "http://www.emresokullu.com"
+                }
+            ],
+            "description": "A simple synchronous Redis database adapter for the Phở stack.",
+            "homepage": "https://phonetworks.org",
+            "time": "2018-10-26T23:21:45+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "111d100ee389d624036b46b35ed0c9ac59c71313"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/111d100ee389d624036b46b35ed0c9ac59c71313",
+                "reference": "111d100ee389d624036b46b35ed0c9ac59c71313",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2017-07-12T14:39:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

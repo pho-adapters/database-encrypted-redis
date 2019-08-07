@@ -1,0 +1,6 @@
+{
+	"minimum-stability": "dev",
+	"require": {
+		"pho-adapters/database-redis": "*"
+	}
+}
